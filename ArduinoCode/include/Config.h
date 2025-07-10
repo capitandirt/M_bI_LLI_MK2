@@ -1,6 +1,8 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
+#include <Arduino.h>
+
 /*==GLOBAL SERIAL SHUT DEFINE BEGIN==*/
 #define GLOBAL_OUTPUT 0
 #if GLOBAL_OUTPUT
@@ -49,11 +51,11 @@
 
 /*==MOTOR PINS BEGIN==*/
 #define LEFT_MOTOR_DIR 7
-#define LEFT_MOTOR_PWM 9
+#define LEFT_MOTOR_PWM (PIN_A1)
 #define LEFT_MOTOR_POLARITY 1
 
 #define RIGHT_MOTOR_DIR 8
-#define RIGHT_MOTOR_PWM 10
+#define RIGHT_MOTOR_PWM (PIN_A0)
 #define RIGHT_MOTOR_POLARITY 0
 /*==MOTOR PINS END==*/
 
