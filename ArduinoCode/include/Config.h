@@ -64,6 +64,13 @@
 #define FUNCTION_PIN A6
 /*==FUNCTIONAL SELECTOR END==*/
 
+/*==BUTTONS PIN BEGIN==*/
+#define BUTTON_1_PIN (28)
+#define BUTTON_2_PIN (27)
+#define BUTTON_3_PIN (26)
+#define BUTTON_4_PIN (25)
+/*==BUTTONS PIN END==*/
+
 /*==W MOTOT PIREG BEGIN==*/
 #define W_K_MOTOR (6 / 1.5) //он выдаёт примерно 6.5 рад/с на 1.5 Волта
 #define W_T_MOTOR 0.15
