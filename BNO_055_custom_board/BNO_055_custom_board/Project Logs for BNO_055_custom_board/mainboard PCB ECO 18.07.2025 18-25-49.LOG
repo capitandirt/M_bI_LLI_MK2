@@ -1,0 +1,21 @@
+Added Component: Designator=U(LGA60C50P10X6_520X380X118)
+Added Pin To Net: NetName=GND Pin=U-2
+Added Pin To Net: NetName=+3.3Â Pin=U-3
+Added Pin To Net: NetName=BOOT_LOAD_PIN Pin=U-4
+Added Pin To Net: NetName=+3.3Â Pin=U-5
+Added Pin To Net: NetName=GND Pin=U-6
+Added Pin To Net: NetName=GND Pin=U-7
+Added Pin To Net: NetName=GND Pin=U-8
+Added Pin To Net: NetName=NetC4_1 Pin=U-9
+Added Pin To Net: NetName=GND Pin=U-10
+Added Pin To Net: NetName=NetR1_2 Pin=U-11
+Added Pin To Net: NetName=INT Pin=U-14
+Added Pin To Net: NetName=GND Pin=U-15
+Added Pin To Net: NetName=GND Pin=U-16
+Added Pin To Net: NetName=GND Pin=U-17
+Added Pin To Net: NetName=GND Pin=U-18
+Added Pin To Net: NetName=RX Pin=U-19
+Added Pin To Net: NetName=TX Pin=U-20
+Added Pin To Net: NetName=GND Pin=U-25
+Added Pin To Net: NetName=+3.3Â Pin=U-28
+Added Member To Class: ClassName=Scheme Member=Component U BNO055

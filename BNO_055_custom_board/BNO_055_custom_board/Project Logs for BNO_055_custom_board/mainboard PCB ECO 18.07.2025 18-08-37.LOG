@@ -1,0 +1,79 @@
+Added Component: Designator=*(SOT223_M)
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "6.8íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=J*(PLS-4)
+Added Component: Designator=R?(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Ïåðåìû÷êà 0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=U*?(SOT23-6)
+Add Component: Footprint Not Found LGA81C100P9X9_1100X1100X350
+Added Component: Designator=U*(SOT23-6)
+Added Pin To Net: NetName=+3.3Â Pin=*-2
+Added Pin To Net: NetName=+3.3Â Pin=*-2
+Added Pin To Net: NetName=+3.3Â Pin=C?-1
+Added Pin To Net: NetName=+3.3Â Pin=C?-2
+Added Pin To Net: NetName=+3.3Â Pin=C?-2
+Added Pin To Net: NetName=+3.3Â Pin=R?-1
+Added Pin To Net: NetName=+3.3Â Pin=U*-1
+Added Pin To Net: NetName=+3.3Â Pin=U*-3
+Added Pin To Net: NetName=+3.3Â Pin=U*-5
+Added Pin To Net: NetName=+3.3Â Pin=U*?-6
+Added Net: Name=+3.3Â
+Added Pin To Net: NetName=+5Â Pin=*-1
+Added Pin To Net: NetName=+5Â Pin=J*-3
+Added Pin To Net: NetName=+5Â Pin=U*-6
+Added Pin To Net: NetName=+5Â Pin=U*?-1
+Added Net: Name=+5Â
+Added Pin To Net: NetName=BOOT_LOAD_PIN Pin=U*-4
+Added Net: Name=BOOT_LOAD_PIN
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=J*-4
+Added Pin To Net: NetName=GND Pin=U*-2
+Added Pin To Net: NetName=GND Pin=U*-5
+Added Pin To Net: NetName=GND Pin=U*-6
+Added Pin To Net: NetName=GND Pin=U*?-2
+Added Pin To Net: NetName=GND Pin=U*?-5
+Added Net: Name=GND
+Added Net: Name=INT
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=RX_INPUT Pin=J*-1
+Added Pin To Net: NetName=RX_INPUT Pin=U*?-3
+Added Net: Name=RX_INPUT
+Added Pin To Net: NetName=RX Pin=U*-3
+Added Net: Name=RX
+Added Pin To Net: NetName=TX_INPUT Pin=J*-2
+Added Pin To Net: NetName=TX_INPUT Pin=U*-4
+Added Net: Name=TX_INPUT
+Added Pin To Net: NetName=TX Pin=U*?-4
+Added Net: Name=TX
+Added Class: Name=Scheme

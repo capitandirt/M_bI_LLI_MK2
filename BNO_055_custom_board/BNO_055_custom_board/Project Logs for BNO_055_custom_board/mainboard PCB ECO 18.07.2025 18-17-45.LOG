@@ -1,0 +1,92 @@
+Added Component: Designator=C1(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "6.8íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C2(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C3(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "120íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=C4(C0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TKE"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100íÔ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "-"; VariantName = "[No Variations]"
+Added Component: Designator=J1(PLS-4)
+Added Component: Designator=R1(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Ïåðåìû÷êà 0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=U1(SOT23-6)
+Added Component: Designator=U2(SOT23-6)
+Added Component: Designator=U3(SOT223_M)
+Add Component: Footprint Not Found LGA81C100P9X9_1100X1100X350
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=+3.3Â Pin=C1-2
+Added Pin To Net: NetName=+3.3Â Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+3.3Â Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=RX_INPUT Pin=J1-1
+Added Pin To Net: NetName=TX_INPUT Pin=J1-2
+Added Pin To Net: NetName=+5Â Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=+3.3Â Pin=R1-1
+Added Pin To Net: NetName=+3.3Â Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=RX Pin=U1-3
+Added Pin To Net: NetName=TX_INPUT Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=+5Â Pin=U1-6
+Added Pin To Net: NetName=+5Â Pin=U2-1
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Pin To Net: NetName=RX_INPUT Pin=U2-3
+Added Pin To Net: NetName=TX Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=+3.3Â Pin=U2-6
+Added Pin To Net: NetName=+5Â Pin=U3-1
+Added Pin To Net: NetName=+3.3Â Pin=U3-2
+Added Pin To Net: NetName=+3.3Â Pin=U3-2
+Added Pin To Net: NetName=GND Pin=U3-3
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U4-10
+Add Pin To Net: Unknown Pin: Pin U4-14
+Add Pin To Net: Unknown Pin: Pin U4-15
+Add Pin To Net: Unknown Pin: Pin U4-16
+Add Pin To Net: Unknown Pin: Pin U4-17
+Add Pin To Net: Unknown Pin: Pin U4-18
+Add Pin To Net: Unknown Pin: Pin U4-19
+Add Pin To Net: Unknown Pin: Pin U4-20
+Add Pin To Net: Unknown Pin: Pin U4-25
+Add Pin To Net: Unknown Pin: Pin U4-28
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Net: Name=NetR1_2
+Added Member To Class: ClassName=Scheme Member=Component C1 6.8íÔ
+Added Member To Class: ClassName=Scheme Member=Component C2 100íÔ
+Added Member To Class: ClassName=Scheme Member=Component C3 120íÔ
+Added Member To Class: ClassName=Scheme Member=Component C4 100íÔ
+Added Member To Class: ClassName=Scheme Member=Component J1 PLS-4
+Added Member To Class: ClassName=Scheme Member=Component R1 10k
+Added Member To Class: ClassName=Scheme Member=Component U1 SN74LVC1T45DBVR
+Added Member To Class: ClassName=Scheme Member=Component U2 SN74LVC1T45DBVR
+Added Member To Class: ClassName=Scheme Member=Component U3 LM1117
+Add Class Member: Failed to add class member : Component U4 BNO055
