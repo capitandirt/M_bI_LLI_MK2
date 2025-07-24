@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=+3.3В Pin=U4-5
+Change Component Designator: OldDesignator=C1 NewDesignator=C2
+Change Component Designator: OldDesignator=C2 NewDesignator=C1
+Change Component Designator: OldDesignator=R1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2 NewDesignator=R3
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Added Component: Designator=R1(R0603)
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "Перемычка 0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10k"; VariantName = "[No Variations]"
+Added Component: Designator=X1(PLS-2)
+Add component (AddParameter): Name = "Contact_1"; Value = "Contact_1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact_2"; Value = "Contact_2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "DS1021-1x2 (PLS-2)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=+3.3В Pin=X1-1
+Added Pin To Net: NetName=UART / I2C Pin=R1-1
+Added Pin To Net: NetName=UART / I2C Pin=U4-5
+Added Pin To Net: NetName=UART / I2C Pin=X1-2
+Added Net: Name=UART / I2C
+Added Member To Class: ClassName=Scheme Member=Component R5 1k
+Added Member To Class: ClassName=Scheme Member=Component X1 DS1021-1x2 (PLS-2)
