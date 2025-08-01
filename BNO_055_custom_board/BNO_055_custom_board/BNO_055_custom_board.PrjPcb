@@ -152,50 +152,98 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for Free Documents\NC Drill\mainboard.DRR
+DocumentPath=Project Outputs for BNO_055_custom_board\NC Drill\mainboard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.EXTREP
+DocumentPath=Project Outputs for Free Documents\NC Drill\mainboard.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GBL
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GBO
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GBS
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GKO
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GTL
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GTO
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GTS
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for Free Documents\NC Drill\mainboard.LDP
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.REP
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for BNO_055_custom_board\NC Drill\mainboard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for Free Documents\NC Drill\mainboard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for BNO_055_custom_board\Gerber\mainboard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for Free Documents\Gerber\mainboard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for BNO_055_custom_board\NC Drill\mainboard.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=Project Outputs for Free Documents\NC Drill\mainboard.TXT
 DItemRevisionGUID=
 
