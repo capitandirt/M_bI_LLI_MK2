@@ -141,8 +141,8 @@
 /*==CHECK TEST'S CORRECT OUTPUT END==*/
 
 /*==OPTOCOUPLER BEGIN==*/
-#define OPTOCOUPLER_PIN_DIAG_RIGHT (A10) // выбор пинов связан с удобством разводки
-#define OPTOCOUPLER_PIN_FWD_RIGHT (A11)
+#define OPTOCOUPLER_PIN_DIAG_RIGHT (A11) // выбор пинов связан с удобством разводки
+#define OPTOCOUPLER_PIN_FWD_RIGHT (A10)
 #define OPTOCOUPLER_PIN_FWD_LEFT (A12)
 #define OPTOCOUPLER_PIN_DIAG_LEFT (A13)
 
