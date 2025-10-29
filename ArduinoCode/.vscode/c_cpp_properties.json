@@ -10,6 +10,7 @@
             "includePath": [
                 "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/include",
                 "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/src",
+                "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/.pio/libdeps/nano/argviz/src",
                 "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/.pio/libdeps/nano/VT100/src",
                 "C:/Users/Asus/.platformio/packages/framework-arduino-avr/cores/arduino",
@@ -18,7 +19,6 @@
                 "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                 "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                 "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                 ""
             ],
             "browse": {
@@ -26,6 +26,7 @@
                 "path": [
                     "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/include",
                     "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/src",
+                    "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/.pio/libdeps/nano/argviz/src",
                     "C:/MyProjects/M_bI_LLI_MK2/ArduinoCode/.pio/libdeps/nano/VT100/src",
                     "C:/Users/Asus/.platformio/packages/framework-arduino-avr/cores/arduino",
@@ -34,7 +35,6 @@
                     "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/HID/src",
                     "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
                     "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
-                    "C:/Users/Asus/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
                     ""
                 ]
             },

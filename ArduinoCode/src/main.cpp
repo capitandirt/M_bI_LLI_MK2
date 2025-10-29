@@ -1,24 +1,61 @@
 #include <Arduino.h>
+#include "Devices.h"
+#include "DevicesMethods.h"
 #include "argviz_driver.h"
-#include "Config.h"
-#include "Globals.h"
+
+void setup()
+{
+  DEVICES::TEST::SET_SERIAL();
+  DEVICES::INIT();
+
+  // DEVICES::TEST::CONVERT_TO_SMART();
+  // while(true);
+
+  delay(25); // ставлю delay чтобы датчики успели прочитать значение хотя бы раз
+  optocoupler.setStaticError();
 
 
-void setup() {
-  Serial.begin(115200);
-  motorsInit();
-  voltage_sensor.init();
+  // cycloStore.addSmart(SmartCycloAction_t::SS90EL);
+  
+  // cycloStore.addSmart(SmartCycloAction_t::TO_BACK_ALIGN);
+  // cycloStore.addSmart(SmartCycloAction_t::FROM_BACK_ALIGN_TO_CENTER);
+  // cycloStore.addSmart(SmartCycloAction_t::FWD_X);
+  // cycloStore.addSmart(SmartCycloAction_t::SD45SR);
+  // cycloStore.addSmart(SmartCycloAction_t::DD90SL);
+  // cycloStore.addSmart(SmartCycloAction_t::DD90SR);
+  // cycloStore.addSmart(SmartCycloAction_t::DD90SL);
+  // cycloStore.addSmart(SmartCycloAction_t::DS45SR);
+  // cycloStore.addSmart(SmartCycloAction_t::SD45SR);
+  // cycloStore.addSmart(SmartCycloAction_t::DIAG_X, 1);
+  // cycloStore.addSmart(SmartCycloAction_t::DS45SR);
+  // cycloStore.addSmart(SmartCycloAction_t::FWD_X, 3);
 
   argviz_init(Serial);
   argviz_registerScreen(0, screen0);
   argviz_start();
+  
 }
 
-void loop() {
-  static uint32_t timer = micros();
-  while(micros() - timer < Ts_us);
-  timer = micros();
+void loop(){
+    static uint32_t last_time = 0;
+    while(micros() - last_time < Ts_us)
+        ;
+    last_time = micros();
 
-  Left_motor.drive(voltage_input);
-  Right_motor.drive(voltage_input);
+    DEVICES::TICK(last_time / 1000);
+
+    // Serial.println("main: " + String(odometry.getTheta() * RAD_TO_DEG)); 
+
+    // if(abs(odometry.getTheta() - HALF_PI) < 0.05){
+    //     indicator.on();
+    // }
+    // else indicator.off();
+
+    // optocoupler.printMask();
+
+    // optocoupler.printMask();
+    // optocoupler.printSense();
+    cycloWorker.doCyclogram();
+    robot.stateMachine();
+    cycloWorker.tryComplete();
 }
