@@ -1,5 +1,5 @@
-#ifndef _CONFIG_H_
-#define _CONFIG_H_
+#ifndef CONFIG_H_
+#define CONFIG_H_
 
 #include <Arduino.h>
 
@@ -20,6 +20,7 @@
 
 /*==UTILITY DEFINES BEGIN==*/
 #define MAX_ANALOG_VALUE static_cast<int32_t>(1023)
+#define MAX_ANALOG_WRITE_VALUE static_cast<int16_t>(255)
 #define HALF(x)  ((x) / 2)
 /*==UITILITY DEFINES END==*/
 
@@ -51,11 +52,11 @@
 
 /*==MOTOR PINS BEGIN==*/
 #define LEFT_MOTOR_DIR 7
-#define LEFT_MOTOR_PWM (PIN_A1)
+#define LEFT_MOTOR_PWM (9)
 #define LEFT_MOTOR_POLARITY 1
 
 #define RIGHT_MOTOR_DIR 8
-#define RIGHT_MOTOR_PWM (PIN_A0)
+#define RIGHT_MOTOR_PWM (10)
 #define RIGHT_MOTOR_POLARITY 0
 /*==MOTOR PINS END==*/
 
@@ -70,6 +71,10 @@
 #define BUTTON_3_PIN (26)
 #define BUTTON_4_PIN (25)
 /*==BUTTONS PIN END==*/
+
+/*==VOLTAGE SENSOR BEGIN==*/
+#define VOLTAGE_SENSOR_PIN (A7)
+/*==VOLTAGE SENSOR END==*/
 
 /*==W MOTOT PIREG BEGIN==*/
 #define W_K_MOTOR (6 / 1.5) //он выдаёт примерно 6.5 рад/с на 1.5 Волта
@@ -158,4 +163,4 @@
 #define USE_GYRO true // выбор ехать по жнкодерам или гироскопу
 /*==GYRO END==*/
 
-#endif // !_CONFIG_H_
+#endif // !CONFIG_H_
